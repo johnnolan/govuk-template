@@ -20,4 +20,16 @@ Where possible, use structurizr to create your diagrams as code. This should be 
 
 Any information needed to get the repository working should be documented and kept up to date in this folder. This includes setting up local environments, updating dependencies and how to build into a live environment.
 
+## Google Lighthouse
 
+This repo provides the setup for testing your sites front end performance in Github Actions. It assumes the site will be static, but if it is dynamic, you can read the documentation to allow the script to navigate to specific urls. Do not forget about setting benchmarks for how your site should perform on slower devices.
+
+Budgets can be set in the budget.json file in the src directory.
+
+## pa11y
+
+pa11y is also enabled in Github Actions following the same idea of a static site. Replace this with your own implementation should you not have a static site generated or adapt the code to call pa11y through something like Cypress.
+
+## cspell
+
+An optional extra that I like, this will check on commit and in CI for spelling mistakes in your files. You can add custom words to the dictionary, which will be required given the amount of acronyms in goverment.
