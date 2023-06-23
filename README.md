@@ -33,3 +33,17 @@ pa11y is also enabled in Github Actions following the same idea of a static site
 ## cspell
 
 An optional extra that I like, this will check on commit and in CI for spelling mistakes in your files. You can add custom words to the dictionary, which will be required given the amount of acronyms in goverment.
+
+## Makefile
+
+Using Makefiles can help with running multi step processes and reducing complexity for getting your repo up and running. The example in this repo allows the running of Structurizr quickly from the command line.
+
+## pre-commit
+
+Pre-commit hooks allow you to run checks on files before they are committed. This is to prevent mistakes that only get caught during CI/CD and reducing the amount of tidy up/refactor commits in your code (yes I know you can squash them anyway). For a list of supported hooks, see this link [https://pre-commit.com/hooks.html](https://pre-commit.com/hooks.html).
+
+## Renovate
+
+Dependabot is great, Renovate is brilliant. If you are open source (which most Governement sites should be), then you can use Renovate for free and handle dependency updates better. Check out their documentation for all the benefits, this repo is setup to group common updates together while waiting 3 days after a release to raise a PR.
+
+If you can and your testing is strong, you can set your dependecies to auto-merge in Github.
