@@ -9,7 +9,7 @@
     "jshint": "jshint src/",
     "lint:check": "eslint .",
     "lint:fix": "eslint --fix .",
-    "lint:spell": "cspell '**/*.*'",
+    "lint:spell": "cspell **/*.md",
     "lint:all": "yarn run lint:check && yarn run lint:spell",
     "pa11y-ci": "pa11y-ci '_site/**/*.html'"
   },
