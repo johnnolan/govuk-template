@@ -42,6 +42,13 @@ Using Makefiles can help with running multi step processes and reducing complexi
 
 Pre-commit hooks allow you to run checks on files before they are committed. This is to prevent mistakes that only get caught during CI/CD and reducing the amount of tidy up/refactor commits in your code (yes I know you can squash them anyway). For a list of supported hooks, see this link [https://pre-commit.com/hooks.html](https://pre-commit.com/hooks.html).
 
+## .nvmrc
+
+This allows us to define the version of node we wish to use in our repo without having to sign post people via readmes. This has a few benefits
+
+* Run in your command window `nvm use` to install and set the version of node locally
+* Point to this file in your Github Actions so CI uses the same as your local environment
+
 ## Renovate
 
 Dependabot is great, Renovate is brilliant. If you are open source (which most Government sites should be), then you can use Renovate for free and handle dependency updates better. Check out their documentation for all the benefits, this repo is setup to group common updates together while waiting 3 days after a release to raise a PR.
