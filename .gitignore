@@ -1,0 +1,4 @@
+node_modules/
+.DS_Store
+pa11y-output.json
+yarn-error.log
