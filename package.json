@@ -5,6 +5,7 @@
   "author": "John Nolan <john.nolan@digital.justice.gov.uk>",
   "license": "MIT",
   "scripts": {
+    "build": "exit 0",
     "jshint": "jshint src/",
     "lint:check": "eslint .",
     "lint:fix": "eslint --fix .",
