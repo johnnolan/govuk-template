@@ -3,3 +3,13 @@ repos:
   rev: 33.2.2
   hooks:
     - id: renovate-config-validator
+- repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.3.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+        exclude: '^\.idea/'
+- repo: https://github.com/awslabs/git-secrets
+    rev: master
+    hooks:
+      - id: git-secrets
