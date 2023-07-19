@@ -17,7 +17,7 @@
     "@babel/core": "7.22.9",
     "@babel/eslint-parser": "7.22.9",
     "@babel/preset-env": "7.22.9",
-    "cspell": "6.31.1",
+    "cspell": "6.31.2",
     "eslint": "8.45.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-prettier": "4.2.1",
