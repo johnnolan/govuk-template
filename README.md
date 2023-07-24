@@ -4,6 +4,19 @@ This is a personal template for tracking best practices for what information sho
 
 There are elements of front end dependencies within here, this is mainly to cover the case of using the [govuk-frontend](https://frontend.design-system.service.gov.uk/) npm package.
 
+## Frontend Installation
+
+To install all dependencies run `yarn install`.
+
+The following commands will give you a starting point to build from. This repository uses [esbuild](https://esbuild.github.io/) for compiling the front end resources. Github actions contain the code to show how this is run in CI.
+
+|Command|Description|
+|---|---|
+|`yarn run build`|Builds the sites JS and CSS to the `dist` folder.|
+|`yarn run test`|Runs Jest to test our javascript files. Also outputs our coverage.|
+|`yarn run test:watch`|Runs Jest under a watch command.|
+|`yarn run build-scss`|Builds the GDS and our custom SCSS files and merges them into one file.|
+
 ## Docs
 
 We store our documentation in the docs folder at the root of the repository. This allows easy access to new team members or contributors to understand how our code works.
