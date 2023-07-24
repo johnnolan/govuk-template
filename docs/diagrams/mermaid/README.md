@@ -4,6 +4,8 @@ You can also opt to use mermaid files for rendering your diagrams.
 
 The examples in this folder give a high level overview of the types you can create and probably want to have to make onboarding easier for developers.
 
+_The examples below are taken from the book [Creating Software with Modern Diagramming Techniques - Build Better Software with Mermaid](https://pragprog.com/titles/apdiag/creating-software-with-modern-diagramming-techniques/). I highly recommend purchasing this book if you are new to Diagramming as Code._
+
 |Name|Description|Link|
 |---|---|---|
 |C4 Model|Understand at a high level the building blocks of the application.|[Link](./c4-model.md)|
