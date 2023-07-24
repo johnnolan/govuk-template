@@ -11,9 +11,7 @@ const fs = fsWithCallbacks.promises;
         copy_files: {
             './src/robots.txt': 'robots.txt',
             './src/budget.json': 'budget.json',
-            './src/images': 'assets/images',
             './node_modules/govuk-frontend/govuk/assets': 'assets',
-            './node_modules/@ministryofjustice/frontend/moj/assets': 'assets',
         },
         out_dir: './dist',
     };
@@ -49,23 +47,6 @@ const fs = fsWithCallbacks.promises;
             console.log(e);
             process.exit(1);
         });
-
-    await esbuild
-        .build({
-            entryPoints: ['dist/pdf.css'],
-            allowOverwrite: true,
-            bundle: true,
-            loader: {
-                '.woff': 'base64',
-                '.woff2': 'base64',
-                '.ttf': 'base64',
-                '.eot': 'base64',
-                '.svg': 'base64',
-                '.png': 'base64',
-            },
-            outfile: 'dist/stylesheets/pdf.css',
-        })
-        .catch(() => process.exit(1));
 
     console.log(hr);
 

@@ -2,6 +2,7 @@
   "name": "opg-modernising-lpa-docs",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "author": "John Nolan <john.nolan@digital.justice.gov.uk>",
   "license": "MIT",
   "scripts": {
@@ -17,11 +18,16 @@
     "test:watch": "jest --watch"
   },
   "devDependencies": {
+    "@babel/cli": "^7.22.9",
     "@babel/core": "7.22.9",
     "@babel/eslint-parser": "7.22.9",
+    "@babel/plugin-transform-runtime": "^7.22.9",
     "@babel/preset-env": "7.22.9",
+    "@babel/runtime": "^7.22.6",
     "babel-jest": "^29.6.1",
+    "core-js": "^3.31.1",
     "cspell": "6.31.2",
+    "es6-promise": "^4.2.8",
     "esbuild": "^0.18.16",
     "esbuild-sass-plugin": "^2.10.0",
     "eslint": "8.45.0",
