@@ -1,9 +1,10 @@
 {
-  "name": "opg-modernising-lpa-docs",
+  "name": "govuk-template",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
-  "author": "John Nolan <john.nolan@digital.justice.gov.uk>",
+  "description": "Example repository setup for a GOV.UK service.",
+  "author": "John Nolan <me@johnnolan.dev>",
   "license": "MIT",
   "scripts": {
     "build": " npm run build-scss && BABEL_ENV=build babel src --out-dir dist && node build.js",
@@ -21,6 +22,10 @@
     "@babel/cli": "^7.22.9",
     "@babel/core": "7.22.9",
     "@babel/eslint-parser": "7.22.9",
+    "@babel/plugin-transform-member-expression-literals": "^7.22.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.22.5",
+    "@babel/plugin-transform-property-literals": "^7.22.5",
+    "@babel/plugin-transform-reserved-words": "^7.22.5",
     "@babel/plugin-transform-runtime": "^7.22.9",
     "@babel/preset-env": "7.22.9",
     "@babel/runtime": "^7.22.6",
