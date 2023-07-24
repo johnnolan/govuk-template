@@ -16,6 +16,9 @@ All Architectural Decisions should be recorded in ADRs.
 
 Where possible, use structurizr to create your diagrams as code. This should be done to a max of level 3, ideally any need to document code structure should automatically be generated using your coding languages plugin options to generate on build/commit the appropriate files.
 
+1. [Mermaid option](./docs/diagrams/mermaid/README.md)
+2. [Structurizr option](./docs/diagrams/dsl/README.md)
+
 ### Runbooks
 
 Any information needed to get the repository working should be documented and kept up to date in this folder. This includes setting up local environments, updating dependencies and how to build into a live environment.
