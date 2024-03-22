@@ -31,7 +31,7 @@
     "@babel/runtime": "^7.22.6",
     "babel-jest": "^29.6.1",
     "core-js": "^3.31.1",
-    "cspell": "6.31.3",
+    "cspell": "7.3.9",
     "es6-promise": "^4.2.8",
     "esbuild": "^0.20.0",
     "esbuild-sass-plugin": "^2.10.0",
