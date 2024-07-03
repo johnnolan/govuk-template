@@ -33,7 +33,7 @@
     "core-js": "^3.31.1",
     "cspell": "8.9.1",
     "es6-promise": "^4.2.8",
-    "esbuild": "^0.21.0",
+    "esbuild": "^0.22.0",
     "esbuild-sass-plugin": "^2.10.0",
     "eslint": "8.57.0",
     "eslint-config-prettier": "9.1.0",
