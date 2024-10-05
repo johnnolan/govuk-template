@@ -34,7 +34,7 @@
     "cspell": "8.14.4",
     "es6-promise": "^4.2.8",
     "esbuild": "^0.24.0",
-    "esbuild-sass-plugin": "^2.10.0",
+    "esbuild-sass-plugin": "^3.0.0",
     "eslint": "8.57.1",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-prettier": "5.2.1",
