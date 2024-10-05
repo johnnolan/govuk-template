@@ -33,7 +33,7 @@ jobs:
           path: _site
 
       - name: Run Audit
-        uses: treosh/lighthouse-ci-action@v10
+        uses: treosh/lighthouse-ci-action@v11
         with:
           configPath: "./lighthouserc.json"
           budgetPath: ./src/_includes/budget.json
